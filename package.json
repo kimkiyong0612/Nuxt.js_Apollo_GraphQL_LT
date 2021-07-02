@@ -8,7 +8,9 @@
   "dependencies": {
     "@slidev/cli": "^0.22.1",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-geist": "^0.6.0",
+    "slidev-theme-light-icons": "^1.0.2"
   },
   "name": "nuxt-js-apollo-graphql-lt"
 }
