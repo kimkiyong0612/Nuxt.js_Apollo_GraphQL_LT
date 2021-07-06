@@ -20,8 +20,9 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # GraphQLとは？
-- API向けのクエリ言語
-- 専用のサーバを立てることでクライアントとサーバー間のミドルウェアとして機能する
+- Facebookにより開発されたAPI向けのクエリ言語
+- API作成のしくみとしてRESTの代わりに使える
+- フロントエンドとバックエンドの間のような存在
 - request時に必要なdataを指定することでフロントエンドでの開発が行いやすくなる!?
 
 
@@ -75,5 +76,5 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 # 結び
 - 実装することでなんとなく理解することができた
 - 確かにクエリで欲しいデータのみ取得することでフロント部分の実装は楽になりそう
-- typescriptの型と相性がよさそう
+- 定義したqueryやschemaがdocumentとして機能する
 - graphQLサーバの開発が大変そう...(フロント+FFB+バックエンド)
